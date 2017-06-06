@@ -17,9 +17,9 @@
                 <ol>
                     <li>Open <a href="https://data.cityofnewyork.us">data.cityofnewyork.us</a></li>
                     <li>Search for <strong>motor vehicle collisions</strong>.</li>
-                    <li>Click <strong>View Data</strong> to preview the data. Don't download the entire file right now since it is very large.</li>
+                    <li>Click <strong>View Data</strong> to preview the data. Don't download the entire file right now since it is very large&mdash;we're just looking at this as an example.</li>
                     <li>Search again, this time for <strong>borough boundaries</strong>.</li>
-                    <li>Preview the borough boundaries and download them.</li>
+                    <li>Preview the borough boundaries and download them (click <strong>Export</strong>, then the <strong>Shapefile</strong> link).</li>
                 </ol>
             </section>
 
@@ -33,23 +33,22 @@
                     <li>Create a new account.</li>
                 </ol>
 
-                <h3>Download some data</h3>
-                <p>You should already have the borough boundaries from the previous part. If not, get them now.</p>
-
-                <p>Now let's get the Inside Airbnb data:</p>
-                <ol>
-                    <li>Go to <a href="http://insideairbnb.com/">insideairbnb.com</a>.</li>
-                    <li>Click <strong>Get the Data</strong>.</li>
-                    <li>Scroll to New York City.</li>
-                    <li>Click <strong>listings.csv</strong>.</li>
-                </ol>
-
                 <h3>Make a map</h3>
                 <ol>
                     <li>Open your Carto account.</li>
-                    <li>Click <strong>New Dataset</strong> and drag-and-drop the boroughs zipfile onto the page.</li>
-                    <li>Create another dataset, this time uploading the listings from Inside Airbnb.</li>
-                    <li>Create a map with both of your layers.</li>
+                    <li>Click <strong>New Dataset</strong> and drag-and-drop the boroughs zipfile onto the page, then click <strong>Connect Dataset</strong>.</li>
+                    <li>Carto will show you a preview of the borough data. At the bottom right click <strong>Create Map</strong>.</li>
+                </ol>
+
+                <h3>Download some more data</h3>
+                <p>Let's add more data to the map using Inside Airbnb:</p>
+                <ol>
+                    <li>In a new tab, go to <a href="http://insideairbnb.com/">insideairbnb.com</a>.</li>
+                    <li>Click <strong>Get the Data</strong>.</li>
+                    <li>Scroll to New York City.</li>
+                    <li>Right-click the <strong>listings.csv</strong> link and download the file (<strong>Save link as</strong>).</li>
+                    <li>Back in Carto, click the <strong>Add</strong> button. Go to the <strong>Connect Dataset</strong> tab to create another dataset, this time uploading the listings from Inside Airbnb.</li>
+                    <li>Click <strong>Add layer</strong> and your map should have both of your layers.</li>
                 </ol>
             </section>
 
